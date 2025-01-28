@@ -4,7 +4,28 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ * Clase Cliente que permite conectarse a un servidor mediante sockets.
+ * Envía mensajes al servidor y recibe respuestas según un protocolo predefinido.
+ *
+ * @author Lucas
+ */
 public class Cliente {
+
+    /**
+     * Constructor por defecto de la clase Cliente.
+     * No realiza ninguna acción específica.
+     */
+    public Cliente() {
+        // Constructor por defecto
+    }
+
+    /**
+     * Metodo principal que establece la conexión con el servidor, envía mensajes y gestiona las respuestas.
+     *
+     * @param args Argumentos de la línea de comandos (no utilizados en este programa).
+     * @throws IOException Si ocurre un error en la entrada/salida de datos.
+     */
 
     public static void main(String[] args) {
 
